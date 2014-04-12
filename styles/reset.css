@@ -1,0 +1,40 @@
+html, body, div, header, ul, li, button, a, article, nav, form, h1, h2, h3, h4, h5, p {
+    padding: 0;
+    margin: 0;
+}
+/* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+input[type=button] {
+    border: 0;
+    text-align: center;
+}
+input::-moz-focus-inner /*Remove button padding in FF*/
+{ 
+    border: 0;
+    padding: 0;
+}
+/* Float clearers */
+.clearfix {
+   zoom:1;
+}
+.clearfix:after {
+   content: ""; 
+   display: block; 
+   clear: both; 
+   height: 0;
+}
