@@ -1,4 +1,4 @@
-Sample-blog-theme
+Sample Blog Theme
 =================
 
 http://rkunev.github.io/Sample-blog-theme
