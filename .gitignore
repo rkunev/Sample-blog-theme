@@ -1,4 +1,4 @@
 #ignore sublime project files
-.sublime-project
-.sublime-workspace
-.db
+*.sublime-project
+*.sublime-workspace
+*.db
