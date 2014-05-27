@@ -1,0 +1,24 @@
+# Add movement animation to nav links
+# Add hover animation on a/buttons (css3 without support for ie lte 9)
+# Add prompt when hovering on a blank anchor (ex: Learn more; Admin, etc.)
+# Change section titles to more friendly (maybe funnier) titles !!change slider sh
+# Absolutely change the subtitles (This Is a ...)
+# Add 'Back to top' absolutely positioned button when user scrolls lower than user-visible section
+# Typo at Work&Feedback grey circle
+# Change table contents (show table responsiveness):
+	- Bronze Package -> Lite package
+	- Silver Package -> Full package
+	- Gold Package   -> Custom package
+		- property select on click 
+		- automatic price recalculation
+	- Access to ev.. -> _actual generic-product info + price
+	- Add subscribe <a> somewhere next to price
+# Change footer logo
+# Change all dates to current dates (js func maybe?)
+# Add info that the project was started during Slice'n'Dice Course in Telerik S. Academy 2013
+# Downsize Read More link on Work&Feedback in Media Queries for 640px width (< 764px)
+# Downsize View More links everywhere in MQ for 640px width (< 764px)
+
+## Change logo title
+	## Fix Slider screenshot on iDevices
+## Add animation on circle hover at Work&Feedback
