@@ -102,10 +102,10 @@ h3 {
 
     padding: 0 1em;
 
-    -moz-transition: -moz-background 1s linear;
-    -o-transition: -o-background 1s linear;
-    -webkit-transition: -webkit-background 1s linear;
-    transition: background 1s linear;
+    -moz-transition: -moz-background 0.5s linear;
+    -o-transition: -o-background 0.5s linear;
+    -webkit-transition: -webkit-background 0.5s linear;
+    transition: background 0.5s linear;
 }
 .read-more-grey,
 .read-more-large-grey {
@@ -223,6 +223,11 @@ h3 {
                     margin-right: 5px;
                     padding: 0 12px;
                     border: 1px solid transparent;
+
+                    -moz-transition: -moz-background 0.5s linear;
+                    -o-transition: -o-background 0.5s linear;
+                    -webkit-transition: -webkit-background 0.5s linear;
+                    transition: background 0.5s linear;
                 }
                     .main-nav li a:hover,
                     .main-nav li .active {
@@ -416,6 +421,9 @@ h3 {
     color: #636b66;
     text-shadow: 1px 1px #fff;
 }
+    i {
+        font-size: .8em;
+    }
     .white-section .dark-circle-btn,
     .white-section .circle-container {
         border: 1px solid #7e7e7e;
