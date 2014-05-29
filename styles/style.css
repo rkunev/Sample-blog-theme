@@ -83,7 +83,7 @@ h3 {
             max-height: 180px;
         }
 
-/* 
+/*
  * 'Read More' buttons/links basic styling
  */
 
@@ -93,7 +93,7 @@ h3 {
 .read-more-large-white, /* Base styles for all 'Read More' buttons */
 .read-more-large-grey,
 .read-more-white,
-.read-more-grey { 
+.read-more-grey {
     line-height: 2.4em;
     text-decoration: none;
 
@@ -101,6 +101,11 @@ h3 {
     border-radius: 0.4em;
 
     padding: 0 1em;
+
+    -moz-transition: -moz-background 1s linear;
+    -o-transition: -o-background 1s linear;
+    -webkit-transition: -webkit-background 1s linear;
+    transition: background 1s linear;
 }
 .read-more-grey,
 .read-more-large-grey {
@@ -122,7 +127,7 @@ h3 {
 }
 .read-more-grey:hover {
     background: #1a6f96;
-    
+
     border: 1px solid #1a6f96;
 
     color: #fff;
@@ -156,7 +161,7 @@ h3 {
 }
 
 .read-more-large-grey, /* Base styles for large 'Read More' buttons */
-.read-more-large-white { 
+.read-more-large-white {
     font-size: 2em;
 }
 .read-more-large-grey {
@@ -165,16 +170,6 @@ h3 {
 }
 .read-more-large-grey:hover {
     background: #3d4c55;
-    /* IE 9 */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNkNGM1NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNTQyNGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top,  #3d4c55 0%, #35424b 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d4c55), color-stop(100%,#35424b));
-    background: -webkit-linear-gradient(top,  #3d4c55 0%,#35424b 100%);
-    background: -o-linear-gradient(top,  #3d4c55 0%,#35424b 100%);
-    background: -ms-linear-gradient(top,  #3d4c55 0%,#35424b 100%);
-    background: linear-gradient(to bottom,  #3d4c55 0%,#35424b 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d4c55', endColorstr='#35424b',GradientType=0 );
-
     text-shadow: 1px 1px #5f5e5e;
 }
 .read-more-large-white {
@@ -193,7 +188,7 @@ h3 {
     background-size: 100% 100%;
     background-color: #2a93c4;
 }
-    
+
     .main-nav {
         padding-top: 2.605%;
     }
@@ -246,8 +241,8 @@ h3 {
         padding-top: 5.209%;
     }
 
-/* 
- * 'Basic jQuery slider' styles 
+/*
+ * 'Basic jQuery slider' styles
  */
 
     #container {
@@ -256,10 +251,10 @@ h3 {
         #banner-fade {
             margin: 0 auto;
         }
-    
+
             ul.bjqs-controls.v-centered li a,
             ul.bjqs-controls.v-top li a {
-                /*width: 2.32%; 
+                /*width: 2.32%;
                 height: 14.92%;*/ /* Fluid sizes */
                 width: 44px;
                 height: 44px;
@@ -280,7 +275,7 @@ h3 {
             }
 
 /*
- * Starts Ad Panel 
+ * Starts Ad Panel
  */
 
 #ad-panel {
@@ -363,15 +358,15 @@ h3 {
             }
 
 /*
- * Starts Main Content 
+ * Starts Main Content
  */
 
 /*
  * 'News & Update' Grey Section styling
  */
 
-.grey-section h2, 
-.grey-section .description { 
+.grey-section h2,
+.grey-section .description {
     color: #fff;
     text-shadow: 1px 1px #464c48;
 }
@@ -438,12 +433,12 @@ h3 {
         background-color: #d4d4d4;
     }
     .white-section .circle-container { /* Light circles styling */
-        background-color: #efefef;            
+        background-color: #efefef;
     }
     .white-section .circle-content {
         position: absolute;
         top: 35%;
-        
+
         padding: 0 2.675%;
         width: 95.5%;
 
@@ -481,7 +476,7 @@ h3 {
     border: 1px solid #35424c;
     border-collapse: collapse;
 
-    margin: 0 auto;    
+    margin: 0 auto;
     margin-bottom: 6.25%;
 
     background-color: #465662;
@@ -516,12 +511,12 @@ h3 {
         line-height: 2.25em;
         text-shadow: 1px 1px #282e31;
         text-align: center;
-        
+
         background-color: #4a5b67;
     }
 
 /*
- * Ends Main Content 
+ * Ends Main Content
  */
 
 /*
@@ -599,10 +594,10 @@ footer #course-id {
 
 /* ==========================================================================
    Internet Explorer Workarounds
-   ========================================================================== */ 
+   ========================================================================== */
 
-/* 
- * Removes MS filter property only in IE9 only 
+/*
+ * Removes MS filter property only in IE9 only
  */
 
 .read-more-grey:not([dummy]),
@@ -658,11 +653,11 @@ footer #course-id {
 /*
  * Starts Top Navigation /Site-logo, main-nav & slider/
  */
-    /* 
+    /*
      * removes extra links from main-nav
      */
 
-    .main-nav li:nth-child(n + 6) { 
+    .main-nav li:nth-child(n + 6) {
         display: none;
     }
 
@@ -681,7 +676,7 @@ footer #course-id {
     }
 
 /*
- * Starts Main Content 
+ * Starts Main Content
  */
 
 /*
@@ -698,7 +693,7 @@ footer #course-id {
 /*
  * 'Work & Feedback' Grey Section styling
  */
-  
+
     .white-section .dark-circle-btn,
     .white-section .circle-container {
         width:  200px;
@@ -723,7 +718,7 @@ footer #course-id {
     }
 
 /*
- * Ends Main Content 
+ * Ends Main Content
  */
 
 /*
@@ -783,7 +778,7 @@ footer #course-id {
 
 /*
  * Starts Top Navigation /Site-logo, main-nav & slider/
- * 
+ *
  */
     #site-logo {
         margin: 0;
@@ -802,10 +797,10 @@ footer #course-id {
         line-height: 42px;
     }
 
-    /* 
+    /*
      * removes extra links from main-nav
      */
-    .main-nav li:nth-child(n + 6) { 
+    .main-nav li:nth-child(n + 6) {
         display: none;
     }
 
@@ -834,7 +829,7 @@ footer #course-id {
     }
 
 /*
- * Starts Main Content 
+ * Starts Main Content
  */
 
 /*
@@ -868,7 +863,7 @@ footer #course-id {
     .white-section .circle-content {
         position: absolute;
         top: 50%;
-        
+
         padding: 0 2.675%;
         width: 95.5%;
 
@@ -904,3 +899,7 @@ footer #course-id {
  * Ends Footer
  */
 }
+
+/*
+ * Testing area
+ */
